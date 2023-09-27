@@ -1,44 +1,112 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
+
+body {
+    background-color: rgb(250, 242, 232);
+}
+
+body, html {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.navbar {
     background-color: #232324;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     color: white;
     font-weight: bold;
-    padding: 20px;
+    padding: 1.25rem; /* 20px converted to rems */
 }
-#logo{
+
+#logo {
     margin-right: auto;
 }
-.navbar a{
-    padding: 20px;
+
+.navbar a {
+    padding: 1.25rem; /* 20px converted to rems */
     align-items: center;
     text-decoration: none;
     color: white;
-    width: 100%;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: rgb(92, 91, 91);
 }
-.main-content{
-    padding: 20px;
-    height: calc(100vh - 60px);
-    width: 100%;
+
+.main-content {
+    padding: 1.875rem; /* 30px converted to rems */
 }
-.about-me{
-    height: 90%;
+
+.resume {
+    padding: 1.25rem; /* 20px converted to rems */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.3125rem 0.9375rem; /* 5px 15px converted to rems */
+    width: 60rem;
+    max-width: 60%;
+    margin: 0 auto;
 }
-.about-me img{
-    height: 70%;
+
+.header {
+    margin: 0 auto;
+    text-align: center;
 }
-.description{
+
+.header h1 {
+    font-size: 1.875rem; /* 30px converted to rems */
+}
+
+.header h2 {
+    font-size: 1.25rem; /* 20px converted to rems */
+    font-weight: lighter;
+}
+
+.resume-section {
+    margin: 0.9375rem; /* 15px converted to rems */
+}
+
+.resume-section h1 {
+    font-size: 1.5625rem; /* 25px converted to rems */
+}
+
+.sub-section {
+    margin: 0 0 0.9375rem 2.5rem; /* 15px 40px converted to rems */
+}
+
+.sub-heading {
     display: flex;
 }
-.description p{
-    padding: 20px;
+
+.sub-heading h2 {
+    color: rgb(110, 110, 110);
+    font-style: italic;
+    font-size: 1.25rem; /* 20px converted to rems */
+}
+
+.sub-heading span {
+    margin-left: 1.25rem; /* 20px converted to rems */
+    font-size: 1.25rem; /* 20px converted to rems */
+}
+
+.job ul {
+    margin-left: 1.875rem; /* 30px converted to rems */
+}
+
+.job p {
+    display: flex;
+    margin-bottom: 0.625rem; /* 10px converted to rems */
+}
+
+.job p span {
+    margin-left: auto;
+}
+@media screen and (max-width: 700px){
+    .resume {
+        max-width: 90%;
+    }
 }
