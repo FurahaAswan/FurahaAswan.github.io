@@ -1,0 +1,65 @@
+.resume {
+    padding: 1.25rem; /* 20px converted to rems */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.3125rem 0.9375rem; /* 5px 15px converted to rems */
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1.875rem; /* 30px converted to rems */
+}
+
+.header h2 {
+    font-size: 1.25rem; /* 20px converted to rems */
+    font-weight: lighter;
+}
+
+.resume-section {
+    margin: 0.9375rem; /* 15px converted to rems */
+}
+
+.resume-section h1 {
+    font-size: 1.5625rem; /* 25px converted to rems */
+}
+
+.sub-section {
+    margin: 0 0 0.9375rem 2.5rem; /* 15px 40px converted to rems */
+}
+
+.sub-heading {
+    display: flex;
+}
+
+.sub-heading a{
+    text-decoration: underline;
+    color: rgb(110, 110, 110);
+}
+
+.sub-heading h2 {
+    color: rgb(110, 110, 110);
+    font-style: italic;
+    font-size: 1.25rem; /* 20px converted to rems */
+}
+
+.sub-heading span {
+    margin-left: 1.25rem; /* 20px converted to rems */
+    font-size: 1.25rem; /* 20px converted to rems */
+}
+
+.job ul {
+    margin-left: 1.875rem; /* 30px converted to rems */
+}
+
+.job p {
+    display: flex;
+    margin-bottom: 0.625rem; /* 10px converted to rems */
+}
+
+.job p span {
+    margin-left: auto;
+}
