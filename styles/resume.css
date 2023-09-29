@@ -1,0 +1,65 @@
+.resume {
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1.875rem;
+}
+
+.header h2 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+.resume-section {
+    margin: 15px;
+}
+
+.resume-section h1 {
+    font-size: 1.5625rem;
+}
+
+.sub-section {
+    margin: 15px 0 15px 40px;
+}
+
+.sub-heading {
+    display: flex;
+}
+
+.sub-heading a{
+    text-decoration: underline;
+    color: rgb(110, 110, 110);
+}
+
+.sub-heading h2 {
+    color: rgb(110, 110, 110);
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+.sub-heading span {
+    margin-left: 20px;
+    font-size: 1.25rem;
+}
+
+.job ul {
+    margin-left: 30px;
+}
+
+.job p {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.job p span {
+    margin-left: auto;
+}

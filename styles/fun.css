@@ -1,0 +1,30 @@
+.header h1{
+    font-weight: bold;
+    margin: auto;
+}
+.images{
+    padding: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.images img{
+    max-height: 620px;
+}
+.image-card{
+    background-color: white;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image-card h2{
+    font-weight: bold;
+}
+audio{
+    width: 100%;
+}
